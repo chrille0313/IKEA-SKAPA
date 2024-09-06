@@ -1,0 +1,23 @@
+{
+  "name": "ikea-ai-collab",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrille0313/IKEA-AI-Collab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrille0313/IKEA-AI-Collab/issues"
+  },
+  "homepage": "https://github.com/chrille0313/IKEA-AI-Collab#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "husky": "^9.1.5"
+  }
+}
