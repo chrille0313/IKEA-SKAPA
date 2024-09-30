@@ -3,9 +3,16 @@
   "version": "0.0.0",
   "description": "",
   "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format-code": "turbo format-code"
   },
   "repository": {
     "type": "git",
@@ -19,6 +26,7 @@
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
     "husky": "^9.1.5",
-    "prettier": "^3.3.3"
-  }
+    "turbo": "^2.1.2"
+  },
+  "packageManager": "npm@10.7.0"
 }

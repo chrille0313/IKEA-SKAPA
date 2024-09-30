@@ -1,0 +1,10 @@
+{
+  "name": "prettier-config",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^3.3.3"
+  },
+  "license": "ISC"
+}
