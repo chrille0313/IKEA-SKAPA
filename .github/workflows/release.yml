@@ -1,0 +1,24 @@
+name: 'Release'
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  semantic-release:
+    name: Github Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Make release
+        run: npm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
