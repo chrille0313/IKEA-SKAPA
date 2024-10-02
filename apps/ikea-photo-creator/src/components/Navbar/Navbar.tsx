@@ -56,6 +56,7 @@ export default function Navbar() {
           <Stack direction="row" gap="1rem">
             <Button
               href="/demo"
+              size="large"
               variant="contained"
               style={{ borderRadius: 50 }}
               endIcon={<PlayArrowIcon />}
@@ -65,6 +66,7 @@ export default function Navbar() {
             </Button>
             <Button
               href="mailto:chrmatts@chalmers.se"
+              size="large"
               variant="outlined"
               style={{ borderRadius: 50 }}
             >
