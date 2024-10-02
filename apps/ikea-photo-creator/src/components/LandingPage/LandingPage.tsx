@@ -1,5 +1,4 @@
 import { Stack, Typography } from '@mui/material';
-import FigmaDemo from '@/components/FigmaDemo';
 import { SlideFadeInOnScroll } from '../Animation';
 
 export default function LandingPage() {
