@@ -1,0 +1,17 @@
+{
+  "name": "release-config",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/github": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "semantic-release": "^24.1.2"
+  },
+  "devDependencies": {
+    "prettier-config": "^1.0.0"
+  }
+}

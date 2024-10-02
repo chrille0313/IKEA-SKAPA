@@ -12,7 +12,8 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
-    "format-code": "turbo format-code"
+    "format-code": "turbo format-code",
+    "release": "turbo release"
   },
   "repository": {
     "type": "git",

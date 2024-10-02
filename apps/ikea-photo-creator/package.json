@@ -9,7 +9,8 @@
     "lint": "npm run lint:scripts && npm run lint:styles",
     "lint:scripts": "next lint --fix",
     "lint:styles": "prettier --check .",
-    "format-code": "prettier . --write"
+    "format-code": "prettier . --write",
+    "release": "semantic-release -e semantic-release-monorepo"
   },
   "dependencies": {
     "@emotion/cache": "^11.13.1",
@@ -30,6 +31,8 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.13",
     "prettier-config": "^1.0.0",
+    "release-config": "^1.0.0",
+    "semantic-release-monorepo": "^8.0.2",
     "typescript": "^5"
   }
 }
