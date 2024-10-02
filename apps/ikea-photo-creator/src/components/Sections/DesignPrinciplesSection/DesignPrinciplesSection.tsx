@@ -1,6 +1,4 @@
-'use client';
-
-import { Container, Stack, Typography, Divider as AS, useTheme } from '@mui/material';
+import { Container, Stack, Typography } from '@mui/material';
 import BalanceIcon from '@mui/icons-material/Balance';
 import PaidIcon from '@mui/icons-material/Paid';
 import HandshakeIcon from '@mui/icons-material/Handshake';
@@ -9,14 +7,12 @@ import SectionTitle from '@/components/Sections/SectionTitle';
 import { SlideFadeInOnScroll } from '@/components/Animation';
 
 interface ASSProps {
-  icon: any;
+  icon: React.ReactElement;
   header: string;
   text: string;
 }
 
 function ASS({ icon, header, text }: ASSProps) {
-  const theme = useTheme();
-
   return (
     <Stack gap="1rem" alignItems="center" flex="1">
       <Stack alignItems="center" gap=".5rem">

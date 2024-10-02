@@ -10,7 +10,6 @@ import {
   Link,
   Typography,
   TypographyProps,
-  Box,
   Button
 } from '@mui/material';
 import ChalmersXIKEA from '@/components/Logos/ChalmersXIKEA';
