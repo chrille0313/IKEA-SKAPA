@@ -1,9 +1,9 @@
 import sharedConfig from 'release-config';
-import { name } from './package.json';
+import packageInfo from './package.json' with { type: 'json' };
 
 const config = {
   ...sharedConfig,
-  tagFormat: `${name}@\${version}`
+  tagFormat: `${packageInfo.name}@\${version}`
 };
 
 export default config;
