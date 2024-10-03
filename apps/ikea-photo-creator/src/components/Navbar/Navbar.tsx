@@ -45,7 +45,9 @@ export default function Navbar() {
       >
         <Toolbar disableGutters sx={{ paddingX: '3rem', justifyContent: 'space-between' }}>
           <Stack direction="row" alignItems="center" gap="3rem" height="100%">
-            <ChalmersXIKEA component={NextLink} href="/" height="100%" paddingY="0.5rem" />
+            <Link component={NextLink} href="/" height="100%" paddingY="0.5rem">
+              <ChalmersXIKEA height="100%" />
+            </Link>
             <Stack direction="row" gap="1.5rem" fontWeight="bold">
               <NavItem href="/">Home</NavItem>
               <NavItem href="/#about">About</NavItem>
