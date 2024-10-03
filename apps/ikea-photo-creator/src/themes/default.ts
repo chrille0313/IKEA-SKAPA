@@ -88,7 +88,7 @@ const lightTheme = createTheme({
     primary: {
       light: blue[300],
       main: blue[500],
-      dark: blue[800],
+      dark: blue[700],
       contrastText: gray[50]
     },
     secondary: {
@@ -128,8 +128,8 @@ const lightTheme = createTheme({
     },
 
     action: {
-      hover: blue[900],
-      selected: blue[800]
+      hover: blue[100],
+      selected: blue[200]
     }
   },
   typography: {
@@ -143,8 +143,7 @@ const lightTheme = createTheme({
   components: {
     MuiLink: {
       defaultProps: {
-        underline: 'none',
-        color: 'primary'
+        underline: 'none'
       },
       styleOverrides: {
         root: {
