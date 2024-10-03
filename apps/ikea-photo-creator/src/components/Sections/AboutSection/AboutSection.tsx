@@ -11,7 +11,7 @@ export default function AboutSection() {
   return (
     <Stack id="about" gap="2rem">
       <SlideFadeInOnScroll>
-        <SectionHeader gap="1.5rem" marginBottom="1rem">
+        <SectionHeader gap="1.5rem" marginBottom="2rem">
           <SectionTitle>About Us</SectionTitle>
         </SectionHeader>
       </SlideFadeInOnScroll>
