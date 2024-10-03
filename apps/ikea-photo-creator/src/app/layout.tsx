@@ -5,6 +5,7 @@ import ThemeProvider from '@/components/ThemeProvider';
 import theme from '@/themes/default';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -24,6 +25,7 @@ export default function RootLayout({
             <Navbar />
             {children}
             <Footer />
+            <SpeedInsights />
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
