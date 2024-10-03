@@ -65,12 +65,7 @@ export default function Navbar() {
             >
               Demo
             </Button>
-            <Button
-              href="mailto:chrmatts@chalmers.se"
-              size="large"
-              variant="outlined"
-              style={{ borderRadius: 50 }}
-            >
+            <Button href="#contact" size="large" variant="outlined" style={{ borderRadius: 50 }}>
               Get in touch!
             </Button>
           </Stack>
