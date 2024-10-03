@@ -13,7 +13,7 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "format-code": "turbo format-code",
-    "release": "turbo release"
+    "release": "turbo release --concurrency=1"
   },
   "repository": {
     "type": "git",
