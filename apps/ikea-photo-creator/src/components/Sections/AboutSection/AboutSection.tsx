@@ -11,7 +11,7 @@ export default function AboutSection() {
   return (
     <Stack id="about" gap="2rem">
       <SlideFadeInOnScroll>
-        <SectionHeader gap="1.5rem" marginBottom="1rem">
+        <SectionHeader gap="1.5rem" marginBottom="2rem">
           <SectionTitle>About Us</SectionTitle>
         </SectionHeader>
       </SlideFadeInOnScroll>
@@ -29,13 +29,13 @@ export default function AboutSection() {
         />
       </FadeInOnScroll>
       <Container>
-        <Stack direction="row" alignItems="center">
+        <Stack direction="row" gap="5rem" alignItems="center" justifyContent="center">
           <SlideFadeInOnScroll>
             <Box display="flex">
               <ChalmersLogo />
             </Box>
           </SlideFadeInOnScroll>
-          <Container maxWidth="sm">
+          <Container maxWidth="sm" style={{ margin: 0, padding: 0 }}>
             <Stack gap="1.5rem" alignItems="center">
               <SlideFadeInOnScroll>
                 <Stack direction="row" gap="1.5rem" alignItems="center">
