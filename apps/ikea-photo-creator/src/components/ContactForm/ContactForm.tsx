@@ -16,19 +16,19 @@ const contactInformation = [
   },
   {
     name: 'Ida Åberg',
-    email: ''
+    email: 'idaaberg0310@gmail.com'
   },
   {
     name: 'Senja Kortesaari',
-    email: ''
+    email: 'senjakortesaari@hotmail.com'
   },
   {
     name: 'Lukas Hén',
-    email: ''
+    email: 'lukas.hen@hotmail.com'
   },
   {
     name: 'Emil Andersson',
-    email: ''
+    email: 'cem.andersson@gmail.com'
   }
 ];
 
