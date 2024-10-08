@@ -28,7 +28,7 @@ const contactInformation = [
   },
   {
     name: 'Emil Andersson',
-    email: ''
+    email: 'cem.andersson@gmail.com'
   }
 ];
 
