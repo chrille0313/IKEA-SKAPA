@@ -24,7 +24,7 @@ const contactInformation = [
   },
   {
     name: 'Lukas Hén',
-    email: ''
+    email: 'lukas.hen@hotmail.com'
   },
   {
     name: 'Emil Andersson',
