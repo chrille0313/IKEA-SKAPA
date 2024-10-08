@@ -16,7 +16,7 @@ const contactInformation = [
   },
   {
     name: 'Ida Åberg',
-    email: ''
+    email: 'idaaberg0310@gmail.com'
   },
   {
     name: 'Senja Kortesaari',
