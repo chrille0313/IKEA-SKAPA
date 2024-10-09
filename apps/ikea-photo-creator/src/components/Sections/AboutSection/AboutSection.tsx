@@ -51,7 +51,7 @@ export default function AboutSection() {
                 <Typography>
                     We are a team from Chalmers University dedicated to simplifying the creation of regional marketing
                     material for retail designers. Our mission is to bridge the gap between artificial intelligence and
-                    retail designers with the help of our innovative software, ÅKE Image Gen. This tool saves time,
+                    retail designers with the help of our innovative software, SKAPA Image Gen. This tool saves time,
                     improves efficiency and makes life easier for retail designers by helping users generate tailored
                     commercial images for regional markets with just a few clicks.
                 </Typography>
