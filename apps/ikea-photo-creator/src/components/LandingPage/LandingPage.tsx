@@ -11,10 +11,13 @@ export default function LandingPage() {
       height="90vh"
       bgcolor="#F3DC09"
     >
-      <Stack>
+      <Stack textAlign="center">
         <SlideFadeInOnScroll>
-          <Typography variant="h1" color="primary">
-            Hej!
+          <Typography variant="h1" color="primary" fontWeight="bold">
+            SKAPA
+          </Typography>
+          <Typography variant="h4" color="primary">
+            The future of retail design
           </Typography>
         </SlideFadeInOnScroll>
       </Stack>
