@@ -1,7 +1,7 @@
 import SectionHeader from '@/components/Sections/SectionHeader';
 import { Box, Container, Stack, Typography } from '@mui/material';
 import ChalmersLogo from '@/components/Logos/ChalmersLogo';
-import members from '@/../public/members.jpg';
+import members from '@/../public/static/images/members.jpg';
 import TitleDivider from '@/components/TitleDivider';
 import NameBlob from '@/components/NameBlob';
 import SectionTitle from '@/components/Sections/SectionTitle';
@@ -30,11 +30,9 @@ export default function AboutSection() {
       </FadeInOnScroll>
       <Container>
         <Stack direction="row" gap="5rem" alignItems="center" justifyContent="center">
-          <SlideFadeInOnScroll>
-            <Box display="flex">
-              <ChalmersLogo />
-            </Box>
-          </SlideFadeInOnScroll>
+          <Box display="flex">
+            <ChalmersLogo />
+          </Box>
           <Container maxWidth="sm" style={{ margin: 0, padding: 0 }}>
             <Stack gap="1.5rem" alignItems="center">
               <SlideFadeInOnScroll>
