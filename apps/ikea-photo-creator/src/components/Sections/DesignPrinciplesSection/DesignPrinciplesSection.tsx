@@ -53,7 +53,7 @@ export default function DesignPrinciplesSection() {
         <SlideFadeInOnScroll>
           <SectionHeader>
             <SectionTitle>
-              Empowering Your Vision <br /> Through Intelligent Design
+              Empowering your vision <br /> through intelligent design
             </SectionTitle>
           </SectionHeader>
         </SlideFadeInOnScroll>
