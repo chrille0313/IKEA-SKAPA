@@ -58,7 +58,7 @@ export default function DesignPrinciplesSection() {
           </SectionHeader>
         </SlideFadeInOnScroll>
 
-        <Stack direction="row" gap="3rem" textAlign="center">
+        <Stack direction={{ lg: 'row' }} gap="3rem">
           {sections.map((s, index) => (
             <SlideFadeInOnScroll
               key={s.header}
