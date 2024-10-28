@@ -29,7 +29,12 @@ export default function AboutSection() {
         />
       </FadeInOnScroll>
       <Container>
-        <Stack direction="row" gap="5rem" alignItems="center" justifyContent="center">
+        <Stack
+          direction={{ xs: 'column-reverse', sm: 'row' }}
+          gap={{ xs: '1rem', sm: '5rem' }}
+          alignItems="center"
+          justifyContent="center"
+        >
           <Box display="flex">
             <ChalmersLogo />
           </Box>

@@ -14,12 +14,14 @@ import example4 from '@/../public/static/images/Examples/example4.png';
 
 export default function Examples() {
   return (
-    <Container maxWidth="xl">
-      <Stack direction="row" alignItems="center">
+    <Container maxWidth="xl" fixed>
+      <Stack alignItems="center" gap="2rem" direction={{ lg: 'row' }}>
         <Stack maxWidth="sm">
           <SlideFadeInOnScroll>
             <SectionHeader gap="1.5rem" marginBottom="2rem">
-              <SectionTitle>Beautiful images instantly!</SectionTitle>
+              <SectionTitle>
+                Beautiful images <br /> instantly!
+              </SectionTitle>
             </SectionHeader>
             <Typography>
               Effortlessly design stunning visuals that showcase IKEA products in perfectly tailored
