@@ -68,7 +68,16 @@ export default function Navbar() {
               fontWeight: 'bold'
             }}
           />
-        </ListItemButton>
+          </ListItemButton>
+          <ListItemButton href="/#rescources" LinkComponent={NextLink}>
+            <ListItemText
+              primary="Resources"
+              primaryTypographyProps={{
+                color: 'primary',
+                fontWeight: 'bold'
+              }}
+            />
+          </ListItemButton>
         <ListItemButton href="/#about" LinkComponent={NextLink}>
           <ListItemText
             primary="About"
@@ -141,6 +150,7 @@ export default function Navbar() {
               </Link>
               <Stack direction="row" gap="1.5rem" fontWeight="bold">
                 <NavItem href="/">Home</NavItem>
+                <NavItem href="/resources">Resources</NavItem>
                 <NavItem href="/#about">About</NavItem>
                 <NavItem href="/#contact">Contact</NavItem>
               </Stack>
