@@ -68,16 +68,16 @@ export default function Navbar() {
               fontWeight: 'bold'
             }}
           />
-          </ListItemButton>
-          <ListItemButton href="/#rescources" LinkComponent={NextLink}>
-            <ListItemText
-              primary="Resources"
-              primaryTypographyProps={{
-                color: 'primary',
-                fontWeight: 'bold'
-              }}
-            />
-          </ListItemButton>
+        </ListItemButton>
+        <ListItemButton href="/resources" LinkComponent={NextLink}>
+          <ListItemText
+            primary="Resources"
+            primaryTypographyProps={{
+              color: 'primary',
+              fontWeight: 'bold'
+            }}
+          />
+        </ListItemButton>
         <ListItemButton href="/#about" LinkComponent={NextLink}>
           <ListItemText
             primary="About"
