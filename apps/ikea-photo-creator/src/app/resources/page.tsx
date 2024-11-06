@@ -7,7 +7,6 @@ export default function ResourcesPage() {
     <Container
       sx={{
         paddingTop: '3rem'
-        // minHeight: '100vh'
       }}
     >
       <Stack gap="2rem">
